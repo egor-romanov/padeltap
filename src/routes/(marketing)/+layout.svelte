@@ -11,7 +11,7 @@
       <li class="md:mx-2"><a href="/blog">blog</a></li>
       <li class="md:mx-4">
         <a
-          href="https://github.com/CriticalMoments/CMSaasStarter"
+          href="https://apps.apple.com/us/app/padeltap/id6476618933"
           class="border border-primary">start match</a
         >
       </li>
@@ -42,7 +42,7 @@
         <li><a href="/blog">blog</a></li>
         <li>
           <a
-            href="https://github.com/CriticalMoments/CMSaasStarter"
+            href="https://apps.apple.com/us/app/padeltap/id6476618933"
             class="border border-primary">start match</a
           >
         </li>
@@ -70,7 +70,7 @@
     </nav>
     <aside class="">
       <span class="footer-title opacity-80">padeltap</span>
-      <a href="https://github.com/CriticalMoments/CMSaasStarter">
+      <a href="https://apps.apple.com/us/app/padeltap/id6476618933">
         <object
           data="/images/appstore.svg"
           type="image/svg+xml"

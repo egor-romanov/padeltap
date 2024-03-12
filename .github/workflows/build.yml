@@ -3,11 +3,11 @@ name: Build
 on: [push]
 
 env:
-  PUBLIC_SUPABASE_URL: "https://fake_test_url.supabase.co"
-  PRIVATE_SUPABASE_ANON_KEY: "fake_anon_key"
+  PUBLIC_SUPABASE_URL: "${{ secrets.URL }}"
+  PRIVATE_SUPABASE_ANON_KEY: "${{ secrets.ANON_KEY }}"
   PRIVATE_SUPABASE_SERVICE_ROLE: "fake_service_role"
-  PRIVATE_STRIPE_API_KEY: "fake_strip_api_key"
-  PUBLIC_SITE_NAME: "SaaS Starter Build Test"
+  PRIVATE_STRIPE_API_KEY: "fake_stripe_api_key"
+  PUBLIC_SITE_NAME: "padeltap"
 
 jobs:
   build_and_test:

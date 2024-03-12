@@ -95,7 +95,7 @@
       </div>
       <div class="mt-6 md:mt-2">
         <a
-          href="https://github.com/CriticalMoments/CMSaasStarter"
+          href="https://apps.apple.com/us/app/padeltap/id6476618933"
           class="w-2 inline-flex justify-center"
         >
           <object
@@ -215,7 +215,10 @@
               > of your matches with detailed stats.
             </div>
             <div class="mt-4 text-large">
-              <a href="https://criticalmoments.io" target="_blank">
+              <a
+                href="https://apps.apple.com/us/app/padeltap/id6476618933"
+                target="_blank"
+              >
                 <button class="btn btn-primary btn-wide mt-3">download</button>
               </a>
             </div>
