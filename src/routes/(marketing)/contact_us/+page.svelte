@@ -70,19 +70,15 @@
     class="max-w-[400px] lg:max-w-[500px] flex flex-col place-content-center p-4 lg:mr-8 lg:mb-8 lg:min-h-[70vh]"
   >
     <div class="px-6">
-      <h1 class="text-2xl lg:text-4xl font-bold mb-4">Contact Us</h1>
-      <p class="text-lg">Talk to one of our service professionals to:</p>
+      <h1 class="text-2xl lg:text-4xl font-bold mb-4">contact us</h1>
+      <p class="text-lg">talk to one of us to:</p>
       <ul class="list-disc list-outside pl-6 py-4 space-y-1">
-        <li class="">Get a live demo</li>
-        <li class="">Discuss your specific needs</li>
-        <li>Get a quote</li>
-        <li>Answer any technical questions you have</li>
+        <li class="">report a bug</li>
+        <li class="">file a feature request</li>
+        <li>leave feedback</li>
+        <li>answer any technical questions you have</li>
       </ul>
-      <p>Once you complete the form, we'll reach out to you! *</p>
-      <p class="text-sm pt-8">
-        *Not really for this demo page, but you should say something like that
-        😉
-      </p>
+      <p>once you complete the form, we'll reach out to you! 😉</p>
     </div>
   </div>
 

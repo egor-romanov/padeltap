@@ -2,7 +2,7 @@ import { fail } from "@sveltejs/kit"
 
 /** @type {import('./$types').Actions} */
 export const actions = {
-  submitContactUs: async ({ request, locals: { supabaseServiceRole } }) => {
+  submitContactUs: async ({ request, locals: { supabase } }) => {
     const formData = await request.formData()
     const errors: { [fieldName: string]: string } = {}
 
@@ -52,17 +52,15 @@ export const actions = {
     }
 
     // Save to database
-    const { error: insertError } = await supabaseServiceRole
-      .from("contact_requests")
-      .insert({
-        first_name: firstName,
-        last_name: lastName,
-        email,
-        company_name: company,
-        phone,
-        message_body: message,
-        updated_at: new Date(),
-      })
+    const { error: insertError } = await supabase.from("feedback").insert({
+      first_name: firstName,
+      last_name: lastName,
+      email,
+      company_name: company,
+      phone,
+      message_body: message,
+      updated_at: new Date(),
+    })
 
     if (insertError) {
       return fail(500, { errors: { _: "Error saving" } })
