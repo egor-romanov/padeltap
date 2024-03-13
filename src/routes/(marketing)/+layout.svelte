@@ -67,6 +67,9 @@
       <a class="link link-hover mb-1" href="/">Overview</a>
       <a class="link link-hover my-1" href="/blog">Blog</a>
       <a class="link link-hover my-1" href="/contact_us">Contact Us</a>
+      <a class="link link-hover my-1" href="/Privacy-Policy.pdf" target="_blank"
+        >Privacy Policy</a
+      >
     </nav>
     <aside class="">
       <span class="footer-title opacity-80">padeltap</span>
