@@ -96,7 +96,7 @@
       <div class="mt-6 md:mt-2">
         <a
           href="https://apps.apple.com/us/app/padeltap/id6476618933"
-          class="w-2 inline-flex justify-center"
+          class="inline-flex justify-center"
         >
           <object
             data="/images/appstore.svg"
